@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "npm run build && node dist/index.js",
     "dev": "tsc -w"
   },
   "keywords": [],
@@ -13,6 +13,21 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/ws": "^8.18.1",
     "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepamak/mexc_futures_spread.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stepamak/mexc_futures_spread/issues"
+  },
+  "homepage": "https://github.com/stepamak/mexc_futures_spread#readme",
+  "dependencies": {
+    "mexc-api-sdk": "^1.0.3",
+    "p-retry": "^7.1.0",
+    "protobufjs": "^7.5.4",
+    "ws": "^8.18.3"
   }
 }
