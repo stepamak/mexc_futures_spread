@@ -1,0 +1,45 @@
+# ——— Node.js ———
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# ——— TypeScript ———
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ——— Environment ———
+.env
+.env.local
+.env.*.local
+
+# ——— OS files ———
+.DS_Store
+Thumbs.db
+
+# ——— IDE / Editor ———
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ——— Tests / Coverage ———
+coverage/
+jest-coverage/
+*.lcov
+
+# ——— Logs ———
+logs/
+*.log
+
+# ——— Misc ———
+tmp/
+temp/
